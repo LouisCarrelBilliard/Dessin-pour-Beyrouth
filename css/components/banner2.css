@@ -1,0 +1,48 @@
+.banner2{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 90%), url(../../images/art.jpg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner2 h1{
+	font-size: 50px;
+	text-align: center;
+	color: #000000;
+	background-color: #dee3e2;
+	border-radius: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.banner2 h2{
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 50px;
+	color: #000000;
+	background-color: #dee3e2;
+	border-radius: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.banner2 p{
+	font-size: 25px;
+	text-align: left;
+	font-weight: lighter;
+	margin-bottom: 50px;
+	color: #000000;
+	background-color: #dee3e2;
+	border-radius: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.banner2 ul{
+	font-size: 20px;
+	text-align: left;
+	font-weight: lighter;
+	margin-bottom: 50px;
+	color: #000000;
+	background-color: #dee3e2;
+	border-radius: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);

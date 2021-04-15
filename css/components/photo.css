@@ -1,0 +1,27 @@
+.photos{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.photo{
+
+}
+
+.headers{
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+
+}
+
+.photo{
+    background-color: #C4C4C4;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    width: 500px;
+}

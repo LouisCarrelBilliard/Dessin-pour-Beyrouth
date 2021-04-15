@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto")
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/headers.css");
+@import url("components/banner.css");
+@import url("components/end.css");
+@import url("components/photo.css");
+@import url("components/banner2.css");
+@import url("components/presentation.css");
+@import url("components/cards.css");
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 30px;
+  	background-color: #E6EBE0;
+}
+
+	h1{
+		font-family: 'Lora', serif;
+		font-size: 50px;
+	}
+
+	h2,h3 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 20px
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	h2{
+		margin: 20px;
+	}
+
+	ul, td{
+		font-size: 20px;
+	}
+
+.card-white-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card-white-center img {
+  width: 150px;
+}
+.card-white-center h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.box-center{
+  text-align: center;
+  background-color: #AAAAAA;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  margin: 10px;
+  flex-grow: 1;
+}
+
+
+.card-white-center,{
+	border-radius: 15px;
+	background-color: #C4C4C4;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.photos-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-grow: 1;
+	border-radius: 15px;
+	background-color: #C4C4C4;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
